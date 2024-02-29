@@ -1,7 +1,7 @@
 const express = require('express');
 const connectDB = require('./database');
 const themeRouter = require('./routes/theme');
-const questionsRouter = require('./routes/questions'); 
+const questionsRouter = require('./routes/question'); 
 
 const app = express();
 
